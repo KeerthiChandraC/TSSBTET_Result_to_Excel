@@ -290,13 +290,15 @@ if __name__=='__main__':
     count = 0
     coderintro()
     instructions_info()
-    for r, d, f in os.walk(f'{thisdir}/INPUT_HTML'):
-        for file in f:
-            if file.endswith(".html") or file.endswith(".htm"):
-                           print(f"Converting {file}")
-                           readht(file)
-                           print(f"Conversion copleted......")
-                           count +=1
+    dir_list = os.listdir(f'{thisdir}/INPUT_HTML')
+    for file in dir_list:
+        if (file.endswith(".html") or file.endswith(".htm")) :
+            print(file)
+            print(f"Converting {file}")
+            readht(file)
+            print(f"Conversion copleted......")
+            count +=1
+    
     if count >0:
         print("All files are saved in Outputs folder")
         input("Press Enter to Exit")
