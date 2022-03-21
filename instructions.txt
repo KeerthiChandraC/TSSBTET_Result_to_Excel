@@ -1,0 +1,32 @@
+********************************************************************************
+Steps to run program for converting results to excel
+********************************************************************************
+
+1. Open college login in https://www.sbtet.telangana.gov.in/.
+2. Login with branch ID and Password.
+3. Open Results Tab.
+4. Open Branch Results Tab.
+5. Select desired result.
+6. Press Ctrl + S to Save the complete web page in html format in INPUT_HTML folder of the program.
+7. Repeat step-5 and step-6 for saving more results.
+7. Run Results_extract_to_excel.exe 
+8. Check OUTPUTS folder of the program for desired results.
+
+
+********************************************************************************
+
+developed by Keerthi Chandra C
+Lecturer in ECE , GMRPW Karimnagar
+for constructive criticism and suggestions reach me at keerthichand.c@gmail.com
+
+
+
+disclaimer:
+    *These are not actual Results
+    *Use this at your own discretion
+    *for actual Results please visit TS-SBTET Website
+    *OUTPUTS from this program are not related to TS-SBTET
+    *This program is developed only to help ease work but not to misguide or harm in
+        any possible ways and with no ill intent
+
+******************************************************************************
