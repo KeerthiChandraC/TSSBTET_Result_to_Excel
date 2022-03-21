@@ -45,7 +45,7 @@ def instructions_info():
 
 before staring ...
 Save C18/C21 Regular Branch Results directly from browser as html fie
-Paste your C18/C21 Regular Branch Results saved from SBTET portal ins INPUT_HTML folder in html format
+Paste your C18/C21 Regular Branch Results saved from SBTET portal in INPUT_HTML folder in html format
 
 ************************************************************************************''')
         input("press ENTER to continue......")
