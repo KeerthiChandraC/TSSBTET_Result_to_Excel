@@ -6,7 +6,7 @@ Steps to run program for converting results to excel
 2. Login with branch ID and Password.
 3. Open Results Tab.
 4. Open Branch Results Tab.
-5. Select desired result.
+5. Select desired semester result.
 6. Press Ctrl + S to Save the complete web page in html format in INPUT_HTML folder of the program.
 7. Repeat step-5 and step-6 for saving more results.
 7. Run Results_extract_to_excel.exe 
