@@ -9,8 +9,8 @@ Steps to run program for converting results to excel
 5. Select desired semester result.
 6. Press Ctrl + S to Save the complete web page in html format in INPUT_HTML folder of the program.
 7. Repeat step-5 and step-6 for saving more results.
-7. Run TSSBTET_HTML_Result_to_Excel.exe
-8. Check OUTPUTS folder of the program for desired results.
+8. Run TSSBTET_HTML_Result_to_Excel.exe
+9. Check OUTPUTS folder of the program for desired results.
 
 
 ********************************************************************************
