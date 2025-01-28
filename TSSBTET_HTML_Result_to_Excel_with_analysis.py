@@ -56,7 +56,7 @@ def coderintro():
                 print()
                 print("********************************************************************************")
                 print()
-                print("Program for spliting cells and save in excel for C18 and C21 Results with subject wise result analysis")
+                print("Program for spliting cells and save in excel for C18,C21 and C24 Results with subject wise result analysis")
                 print("Program also seperates slow learners(below 40%) and Fast Learners(above 75%)")
                 print()
                 print("********************************************************************************")
@@ -64,8 +64,10 @@ def coderintro():
                 print("********************************************************************************")
                 print()
                 print("developed by Keerthi Chandra C")
-                print("Lecturer in ECE , GMRPW Karimnagar")
-                print("for constructive criticism and suggestions reach me at keerthichand.c@gmail.com")
+                print("Lecturer in ECE,")
+                print("for constructive criticism and suggestions reach me at")
+                print('''Phone: 9963459392
+Email: keerthichand.c@gmail.com''')
                 print('''
 
 
@@ -540,7 +542,7 @@ def readxl(file_name,outdir,andir):
                     data  = pd.DataFrame(data_dict)
                     data.to_excel(writer,sheet_name=f'{sub}_Result Analysis',index=False)
                     subcodeno_forAnal = sub[-1] if sub[-1]!="0" else "10"
-                    resAnal_sheet.cell(row=res_row_pad, column=res_col_pad).value = subcodeno_forAnal
+                    resAnal_sheet.cell(row=res_row_pad, column=res_col_pad).value = int(subcodeno_forAnal)
                     resAnal_sheet.cell(row=res_row_pad, column=res_col_pad+1).value = f'{sub}'
                     for stat in data_dict[ f"Result Analysis"]:
                         resAnal_sheet.cell(row=res_row_pad, column=res_col_pad+2).value = stat
@@ -605,7 +607,7 @@ def readxl(file_name,outdir,andir):
 
 
             writer.close()
-        resAnal_sheet.merge_cells(start_row=res_row_pad+2, start_column=6, end_row=res_row_pad+2, end_column=8)
+        #resAnal_sheet.merge_cells(start_row=res_row_pad+2, start_column=6, end_row=res_row_pad+2, end_column=8)
         resAnal_sheet.cell(row=res_row_pad+2, column=6).value = f'Signature of HOD'
         resAnal_sheet.insert_rows(1)
         resAnal_sheet.insert_rows(1)

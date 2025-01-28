@@ -16,8 +16,10 @@ Steps to run program for converting results to excel
 ********************************************************************************
 
 developed by Keerthi Chandra C
-Lecturer in ECE , GMRPW Karimnagar
-for constructive criticism and suggestions reach me at keerthichand.c@gmail.com
+Lecturer in ECE
+for constructive criticism and suggestions reach me at 
+Phone: 9963459392
+Email: keerthichand.c@gmail.com
 
 
 
