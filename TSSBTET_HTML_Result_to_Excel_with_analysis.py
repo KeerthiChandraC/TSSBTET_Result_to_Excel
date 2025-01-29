@@ -224,7 +224,7 @@ def pd_read(df,fname):
     wb_old2 = openpyxl.Workbook()
     Marks_sheet_old2 = wb_old2.active
     row_pad =2
-    Marks_sheet.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
+    Marks_sheet.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
     Marks_sheet.cell(row=row_pad, column=1).value = "SlNo"
     Marks_sheet.cell(row=row_pad, column=2).value = "PIN"
     Marks_sheet.cell(row=row_pad, column=3).value = "NAME"
@@ -232,15 +232,15 @@ def pd_read(df,fname):
     Marks_sheet_old.cell(row=4, column=1).value = "Sl No"
     Marks_sheet_old.merge_cells(start_row=4, start_column=2, end_row=5, end_column=2)
     Marks_sheet_old.cell(row=4, column=2).value = "PIN"
-    Marks_sheet_old.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
-    Marks_sheet_old.cell(row=2, column=1).value = "for feedback Contact keerthichand.c@gmail.com"
+    Marks_sheet_old.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
+    Marks_sheet_old.cell(row=2, column=1).value = "for feedback Contact Phone: 9963459392 Email: keerthichand.c@gmail.com"
 
     Marks_sheet_old2.merge_cells(start_row=4, start_column=1, end_row=5, end_column=1)
     Marks_sheet_old2.cell(row=4, column=1).value = "Sl No"
     Marks_sheet_old2.merge_cells(start_row=4, start_column=2, end_row=5, end_column=2)
     Marks_sheet_old2.cell(row=4, column=2).value = "PIN"
-    Marks_sheet_old2.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
-    Marks_sheet_old2.cell(row=2, column=1).value = "for feedback Contact keerthichand.c@gmail.com"
+    Marks_sheet_old2.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
+    Marks_sheet_old2.cell(row=2, column=1).value = "for feedback Contact Phone: 9963459392 Email: keerthichand.c@gmail.com"
     #Marks_sheet_old.cell(row=4, column=2+1+7*j).value = mid1
 
     col =4
@@ -614,9 +614,9 @@ def readxl(file_name,outdir,andir):
         resAnal_sheet.insert_rows(1)
         resAnal_sheet.insert_rows(1)
         resAnal_sheet.merge_cells(start_row=1, start_column=1, end_row=1, end_column=8)
-        resAnal_sheet.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
+        resAnal_sheet.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
         resAnal_sheet.merge_cells(start_row=2, start_column=1, end_row=2, end_column=8)
-        resAnal_sheet.cell(row=2, column=1).value = "for feedback Contact keerthichand.c@gmail.com"
+        resAnal_sheet.cell(row=2, column=1).value = "for feedback Contact Phone: 9963459392 Email: keerthichand.c@gmail.com"
         resAnal_sheet.merge_cells(start_row=4, start_column=1, end_row=4, end_column=2)
         resAnal_sheet.cell(row=4, column=1).value = "Exam Month and Year:"
         resAnal_sheet.cell(row=5, column=1).value = "Sl.No"
@@ -1000,9 +1000,9 @@ def getresult_Excel(pins):
         col = 0
         ROW_PAD = 3
         sem_sheets[f"{i+1}SEM"].cell(
-            row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
+            row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
         sem_sheets[f"{i+1}SEM"].cell(
-            row=2, column=1).value = "for feedback Contact keerthichand.c@gmail.com"
+            row=2, column=1).value = "for feedback Contact Phone: 9963459392 Email: keerthichand.c@gmail.com"
         for trow in TOP_ROW_tot:
             sem_sheets[f"{i+1}SEM"].cell(row=ROW_PAD,
                                          column=col+1).value = f'{trow}'
@@ -1011,9 +1011,9 @@ def getresult_Excel(pins):
     col = 0
     ROW_PAD = 3
     sheet_over.cell(
-        row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
+        row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
     sheet_over.cell(
-        row=2, column=1).value = "for feedback Contact keerthichand.c@gmail.com"
+        row=2, column=1).value = "for feedback Contact Phone: 9963459392 Email: keerthichand.c@gmail.com"
 
     for trow in TOP_ROW_gen:
         sheet_over.cell(row=ROW_PAD, column=col+1).value = f'{trow}'
@@ -1114,8 +1114,8 @@ def getresult_Excel(pins):
     for YEARS in SEM_INSERT.keys():
         cal_per(sheet_over,SEM_INSERT[YEARS],row_max,ROW_PAD)
     
-    sheet_disc.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,L/ECE, GMRPW Karimnagar "
-    sheet_disc.cell(row=2, column=1).value = "for feedback Contact keerthichand.c@gmail.com"
+    sheet_disc.cell(row=1, column=1).value = "Result in excel by KEERTHI CHANDRA C,Lecturer in ECE, "
+    sheet_disc.cell(row=2, column=1).value = "for feedback Contact Phone: 9963459392 Email: keerthichand.c@gmail.com"
     
     
     sheet_disc.merge_cells('A3:AB5') 
