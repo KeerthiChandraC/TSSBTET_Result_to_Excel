@@ -91,8 +91,8 @@ def instructions_info():
 ************************************************************************************
 
 before staring ...
-Save C18/C21 Regular Branch Results directly from browser as html fie
-Paste your C18/C21 Regular Branch Results saved from SBTET portal in INPUT_HTML folder in html format
+Save C18/C21/C24 Regular Branch Results directly from browser as html fie
+Paste your C18/C21/C24 Regular Branch Results saved from SBTET portal in INPUT_HTML folder in html format
 for detailed instructions watch below video:
     https://youtu.be/-5EINkWqOg4
 
