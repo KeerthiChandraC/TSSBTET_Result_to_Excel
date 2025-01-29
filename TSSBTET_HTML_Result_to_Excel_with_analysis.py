@@ -721,7 +721,6 @@ def dip_res(PIN):
             details["CGPA"] = 'Details Not Found'
             details["CreditsGained"] = 'Details Not Found'
         cred = string_toFloat(details["CreditsGained"])
-        cred = cred + len(data['Table3'])*2.5
         if type(cred)== float:
             cred + len(data['Table3'])*2.5
             if cred >= 130:
