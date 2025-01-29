@@ -723,6 +723,7 @@ def dip_res(PIN):
         cred = string_toFloat(details["CreditsGained"])
         if type(cred)== float:
             cred += len(data['Table3'])*2.5
+            details["CreditsGained"] = cred
             if cred >= 130:
                 details["Diploma_Status"] = "Completed_Diploma"
             else:
